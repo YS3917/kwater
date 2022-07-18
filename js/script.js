@@ -1,6 +1,6 @@
 $(document).ready(function () {});
 window.onload = function () {
-  // 랜덤 천사 기능
+  // 랜덤 천사 기능(0~2)
   let rNum = Math.floor(Math.random() * 3);
   let rClass = 'about-box-char-' + rNum;
   let rTag = $('.about-box-sns');
@@ -65,6 +65,5 @@ window.onload = function () {
       $(this).addClass('sw-about-play');
     }
   });
-
 
 };
